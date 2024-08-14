@@ -67,6 +67,8 @@ img {
   width: 200px;
   border-radius: 20px;
   background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
 }
 
 .info {
@@ -122,4 +124,35 @@ img {
   margin-top: -50px;
   font-size: 20px;
   font-weight: bold;
+}
+
+.action-container {
+  background-color: #3882f6;
+  width: 900px;
+  margin-left: 250px;
+  margin-top: 40px;
+  padding: 30px;
+  border-radius: 10px;
+}
+.action {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  color: #f9faf8;
+}
+
+.call-heading {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: -15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
 }
